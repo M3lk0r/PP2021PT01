@@ -7,15 +7,14 @@ public class ViolaoDuploZero extends ViolaoPrototype {
     }
 
     public ViolaoDuploZero() {
-        //valorVenda = 0;
     }
 
     @Override
     public String exibirInfo() {
         System.out.println("Categorizado como Parlor,"
-                + " com estruturas menores e sendo mais indicado para uso casual e n�o tanto profissional."
-                + " O viol�o duplo zero � um pouco maior que o viol�o zero,"
-                + " apresentando uma boa sonoridade e sendo indicado para t�cnicas de fingerstyle.\n"
+                + " com estruturas menores e sendo mais indicado para uso casual e não tanto profissional."
+                + " O violão duplo zero é um pouco maior que o violão zero,"
+                + " apresentando uma boa sonoridade e sendo indicado para tocnicas de fingerstyle.\n"
                 + "Valor: R$" + getValorVenda());
         return null;
     }

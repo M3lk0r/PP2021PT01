@@ -7,16 +7,15 @@ public class Violao7Cordas extends ViolaoPrototype {
     }
 
     public Violao7Cordas() {
-        //valorVenda = 0;
     }
 
     @Override
     public String exibirInfo() {
-        System.out.println("Viol�o 7 cordas: Conhecido como o viol�o brasileiro,"
-                + " j� que � indicado para acompanhar g�neros como o choro e o samba,"
-                + " esse tipo de viol�o n�o apresenta diferen�as na sua estrutura quando comparado ao viol�o cl�ssico."
-                + " Por�m seu diferencial est� na s�tima corda, que costuma ser afinada de maneira mais grave que as outras seis."
-                + " Isso exige um conhecimento do m�sico que for toc�-lo.\n"
+        System.out.println("Violão 7 cordas: Conhecido como o violão brasileiro,"
+                + " ja que e indicado para acompanhar generos como o choro e o samba,"
+                + " esse tipo de violão não apresenta diferenças na sua estrutura quando comparado ao violão classico."
+                + " Porem seu diferencial esta na setima corda, que costuma ser afinada de maneira mais grave que as outras seis."
+                + " Isso exige um conhecimento do musico que for toca-lo.\n"
                 + "Valor: R$" + getValorVenda());
         return null;
     }

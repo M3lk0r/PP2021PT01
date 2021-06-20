@@ -7,17 +7,16 @@ public class ViolaoFlet extends ViolaoPrototype {
     }
 
     public ViolaoFlet() {
-        //valorVenda = 0;
     }
 
     @Override
     public String exibirInfo() {
-        System.out.println("A palavra flat, do ingl�s, pode significar �plano� ou �liso�."
-                + " � justamente essa a principal caracter�stica desse tipo de viol�o:"
-                + " sua caixa ac�stica � bastante fina! O viol�o flet � muito utilizado por m�sicos profissionais"
-                + " e na maioria dos casos � tocado com cordas de nylon."
-                + " O timbre gerado por esse tipo de viol�o � mais suave."
-                + " Por ser encontrado quase sempre em modelos el�tricos, precisa de amplifica��o.\n"
+        System.out.println("A palavra flat, do ingles, pode significar 'plano' ou 'liso'."
+                + " É justamente essa a principal caracteristica desse tipo de violão:"
+                + " sua caixa acustica é bastante fina! O violão flet é muito utilizado por musicos profissionais"
+                + " e na maioria dos casos é tocado com cordas de nylon."
+                + " O timbre gerado por esse tipo de violão é mais suave."
+                + " Por ser encontrado quase sempre em modelos eletricos, precisa de amplificação.\n"
                 + "Valor: R$" + getValorVenda());
         return null;
     }

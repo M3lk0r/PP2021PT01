@@ -12,11 +12,11 @@ public class ViolaoJumbo extends ViolaoPrototype {
 
     @Override
     public String exibirInfo() {
-        System.out.println("O viol�o jumbo ficou famoso nas m�os de Elvis Presley,"
-                + " mas, apesar de ser bem parecido com o tipo cl�ssico,"
-                + " a grande diferen�a est� em seu corpo mais largo e na base mais arredondada."
-                + " � mais f�cil de encontrar modelos eletroac�sticos e com cordas de a�o."
-                + " O som gerado pelo viol�o jumbo � mais grave e encorpado.\n"
+        System.out.println("O violão jumbo ficou famoso nas mãos de Elvis Presley,"
+                + " mas, apesar de ser bem parecido com o tipo classico,"
+                + " a grande diferença esta em seu corpo mais largo e na base mais arredondada."
+                + " é mais facil de encontrar modelos eletroacusticos e com cordas de aço."
+                + " O som gerado pelo violão jumbo é mais grave e encorpado.\n"
                 + "Valor: R$" + getValorVenda());
         return null;
     }

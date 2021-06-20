@@ -7,15 +7,14 @@ public class ViolaoClassico extends ViolaoPrototype {
     }
 
     public ViolaoClassico() {
-        //valorVenda = 0;
     }
 
     @Override
     public String exibirInfo() {
-        System.out.println("O viol�o cl�ssico � um modelo ac�stico e funciona com seis cordas"
+        System.out.println("O violão classico é um modelo acustico e funciona com seis cordas"
                 + " (na maioria das vezes, feitas de nylon)."
                 + " Possui um custo mais baixo quando comparado aos outros tipos."
-                + " � indicado para iniciantes gra�as � sua leveza e maciez.\n"
+                + " é indicado para iniciantes graças a sua leveza e maciez.\n"
                 + "Valor: R$" + getValorVenda());
         return null;
     }
