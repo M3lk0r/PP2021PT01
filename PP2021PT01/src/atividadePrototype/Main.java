@@ -15,11 +15,11 @@ public class Main {
 
         ViolaoPrototype violaoClassicoNovo = violaoClassico.clonar();
         violaoClassicoNovo.setValorVenda(450.00);
+        violaoClassicoNovo.exibirInfo();
         ViolaoPrototype violaoClassicoUsado = violaoClassico.clonar();
         violaoClassicoUsado.setValorVenda(200.00);
-        violaoClassicoNovo.exibirInfo();
         violaoClassicoUsado.exibirInfo();
-
+        
         ViolaoPrototype violaoFolkNovo = violaoFolk.clonar();
         violaoFolkNovo.setValorVenda(850.00);
         ViolaoPrototype violaoFolkUsado = violaoFolk.clonar();
@@ -75,6 +75,7 @@ public class Main {
         violaoTriploZeroUsado.setValorVenda(3000.00);
         violaoTriploZeroNovo.exibirInfo();
         violaoTriploZeroUsado.exibirInfo();
+        
     }
 
 }
